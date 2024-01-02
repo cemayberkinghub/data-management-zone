@@ -415,7 +415,9 @@
               "usgovvirginia",
               "westeurope",
               "westus2",
-              "westus3"
+              "westus3",
+              "uaenorth",
+              "uaecentral"
             ],
             "firewallPolicyPremiumProperties": {
               "intrusionDetection": {
@@ -1147,6 +1149,7 @@
                                   "tunnel.westus.azuredatabricks.net",
                                   "tunnel.westeurope.azuredatabricks.net",
                                   "tunnel.westeuropec2.azuredatabricks.net",
+                                  "tunnel.uaenorth.azuredatabricks.net",
                                   "tunnel.southafricanorth.azuredatabricks.net",
                                   "tunnel.switzerlandnorth.azuredatabricks.net",
                                   "tunnel.uaenorth.azuredatabricks.net",
@@ -2038,11 +2041,14 @@
               "privatelink.vaultcore.azure.net",
               "[format('privatelink.web.{0}', environment().suffixes.storage)]",
               "privatelink.northeurope.azmk8s.io",
+              "privatelink.uaenorth.azmk8s.io",
               "privatelink.westeurope.azmk8s.io",
               "privatelink.northeurope.batch.azure.com",
               "privatelink.westeurope.batch.azure.com",
+              "privatelink.uaenorth.batch.azure.com",
               "northeurope.privatelink.redisenterprise.cache.azure.net",
-              "westeurope.privatelink.redisenterprise.cache.azure.net"
+              "westeurope.privatelink.redisenterprise.cache.azure.net",
+              "uaenorth.privatelink.redisenterprise.cache.azure.net"
             ]
           },
           "resources": [
@@ -2419,7 +2425,8 @@
                       "uksouth",
                       "westcentralus",
                       "westeurope",
-                      "westus2"
+                      "westus2",
+                      "uaenorth"
                     ]
                   },
                   "resources": [
