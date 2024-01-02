@@ -36,6 +36,7 @@ var purviewRegions = [
   'westcentralus'
   'westeurope'
   'westus2'
+  'uaenorth'
 ]
 
 // Resources
